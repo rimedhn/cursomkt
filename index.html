@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rimed Digital Academy - Domina el Marketing Digital</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         /* Estilos generales */
         body {
@@ -724,6 +724,45 @@
                 padding: 20px;
             }
         }
+
+        .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100; /* Para asegurarte de que esté encima de otros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.whatsapp-float i {
+    margin-top: 0; /* Asegúrate de que el icono esté centrado verticalmente */
+}
+
+/* Opcional: Estilos para cuando el mouse pasa por encima */
+.whatsapp-float:hover {
+    background-color: #128C7E;
+}
+
+/* Opcional: Responsive para dispositivos móviles */
+@media (max-width: 768px) {
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 25px;
+    }
+}
     </style>
 </head>
 <body>
@@ -1173,6 +1212,8 @@
             successMessage.style.display = 'block';
         }
     </script>
-
+<a href="https://wa.me/50493593126?text=Hola, me gustaría más información acerca del curso de marketing digital para no diseñadores!!" class="whatsapp-float" target="_blank">
+    <i class="fa fa-whatsapp"></i>
+</a>
 </body>
 </html>
