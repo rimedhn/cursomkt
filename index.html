@@ -160,7 +160,7 @@
 
 .hero-content {
     display: flex; /* Convierte hero-content en un contenedor flexbox */
-    align-items: rigth; /* Alinea los elementos hijos verticalmente al centro */
+    align-items: center; /* Alinea los elementos hijos verticalmente al centro */
     justify-content: space-between; /* Distribuye el espacio entre los elementos: texto a la izquierda, imagen a la derecha */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea en pantallas pequeñas */
     gap: 40px; /* Espacio entre el texto y la imagen */
@@ -176,6 +176,7 @@
     font-size: 3em; /* Ajusta el tamaño de tu título */
     margin-bottom: 20px;
     color: #FFF; /* O el color que uses para el texto */
+    text-align: left; /* Alinea el texto a la izquierda dentro de su contenedor */
 }
 
 .hero-text-container p {
@@ -183,6 +184,7 @@
     line-height: 1.6;
     margin-bottom: 30px;
     color: #EEE; /* O el color que uses para el texto */
+    text-align: left; /* Alinea el texto a la izquierda dentro de su contenedor */
 }
 
 .hero-buttons {
@@ -213,7 +215,7 @@
 
     .hero-text-container {
         min-width: unset; /* Elimina el ancho mínimo para que ocupe todo el ancho disponible */
-        text-align: center; /* Centra el texto */
+        text-align: left; /* Centra el texto */
         order: 2; /* Puedes cambiar el orden si quieres que la imagen vaya primero en móviles */
     }
 
