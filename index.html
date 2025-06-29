@@ -123,6 +123,25 @@
             height: 20px;
         }
 
+        /* Si aplicas estilos al contenedor del enlace */
+.logo {
+    display: inline-block; /* O block, dependiendo de tu layout */
+    /* Otras propiedades si las necesitas para el enlace */
+}
+
+/* Para controlar el tamaño de la imagen del logo */
+.logo img {
+    max-width: 200px; /* Ejemplo: establece un ancho máximo para tu logo */
+    height: auto;      /* Asegura que la altura se ajuste proporcionalmente */
+    display: block;    /* Elimina el espacio extra que a veces aparece debajo de las imágenes */
+}
+
+/* Si tu logo está en una cabecera, podrías tener algo así */
+header .logo img {
+    max-height: 60px; /* Altura máxima del logo en la cabecera */
+    width: auto;
+}
+        
         nav ul {
             list-style: none;
             margin: 0;
