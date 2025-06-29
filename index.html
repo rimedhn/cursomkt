@@ -206,6 +206,7 @@
     max-width: 100%; /* Asegura que la imagen no se desborde de su contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Elimina espacio extra debajo de la imagen si es un elemento en línea */
+    borde-radius: 20px
 }
 
 /* Media Queries para Responsive Design (muy importante para este tipo de diseño) */
@@ -860,7 +861,12 @@
 
     <header>
         <div class="container">
-            <a href="https://github.com/rimedhn/cursomkt/blob/main/Rimed%20Logo.jpg?raw=true" class="logo">Rimed Digital Academy</a>
+             <div class="container">
+        <a href="/" class="logo"> <img src="https://github.com/rimedhn/cursomkt/blob/main/Rimed%20Logo.jpg?raw=true" alt="Rimed Digital Academy Logo">
+            <p>Rimed Digital Academy</p>
+        </a>
+        </div>
+            
             <nav>
                 <ul>
                     <li><a href="#hero">Inicio</a></li>
